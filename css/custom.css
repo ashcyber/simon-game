@@ -1,0 +1,65 @@
+
+#simon_board {
+	margin: auto;
+	width: 50%;
+
+}
+
+#indicator{
+	margin-left: 10px;
+	color: #F44336; 
+	font-weight: bold; 
+}
+
+
+.row div{
+	line-height: 150px;
+	font-size: 50px;
+	height: 150px;
+	cursor: pointer;
+	opacity: 0.65;
+
+}
+
+#simon_board div:active{
+	opacity: 1; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+
+
+
+#red_block{
+	background-color: #F44336;
+	
+}
+
+
+#green_block{
+	background-color: #4CAF50; 
+
+}
+
+
+#yellow_block{
+	background-color: #FFEB3B; 
+
+}
+
+#blue_block{
+	background-color: #2196F3; 
+
+}
+
+
+
+.btn{
+	width: 120px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 10px;
+}
+
+#strict{
+	color: #2196F3;
+	background-color: white; 
+}
