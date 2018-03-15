@@ -58,21 +58,6 @@ $('#start').click(function() {
 	}
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // click listner for each div 
 // activates only if game has started 
 $('#red_block').click(function() {
@@ -87,9 +72,6 @@ $('#red_block').click(function() {
 		// can't click ;
 	}
 });
-
-
-
 
 $('#green_block').click(function() {
 
@@ -120,8 +102,6 @@ $('#yellow_block').click(function() {
 		// can't click; 
 	}
 });
-
-
 
 $('#blue_block').click(function() {
 	if(isStarted == true && isPlayerChance == true){
@@ -304,7 +284,6 @@ function game(){
 		}(i,game_arr));
 	}
 }
-
 
 function createGameSequence(){
 	arr = []
